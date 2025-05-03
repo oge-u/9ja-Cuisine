@@ -1,5 +1,26 @@
-# Vue 3 + Vite
+# 9ja Cuisine Card
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A web page showcasing Nigerian dishes, built for the UB_Tech junior developer task.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+- Card with a chef’s profile photo, title, description, and a slider of 3+ dish images.
+- Frontend: Vue.js, Vite, Tailwind CSS, Pinia, Swiper.js.
+- Images from Unsplash API (small size, `nigerian+traditional+food`), profile photo from Random User API.
+
+## Setup
+1. Clone: `git clone https://github.com/oge-u/9ja-Cuisine.git`
+2. Install:
+   - `cd frontend`
+   - `npm install`
+   - Add `VITE_UNSPLASH_ACCESS_KEY` to `.env`
+   - `npm run dev`
+
+## Notes
+- Uses placehold.co for fallback images.
+- Swiper delayed until images load to prevent loop warning.
+- Unsplash query uses `nigerian+traditional+food` for relevant images.
+
+## Credits
+- Unsplash API for dish images.
+- Random User API for profile photo.
+- Swiper.js for the slider.
